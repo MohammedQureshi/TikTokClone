@@ -1,8 +1,14 @@
 import React, { MouseEventHandler } from 'react'
 import './Button.scss'
 
+export enum ButtonType {
+    FILLED = "filled", 
+    OUTLINED = "outlined",
+    NORMAL = "normal"
+}
+
 interface ButtonProps {
-    type: string,
+    type: ButtonType,
     text: string,
     event: MouseEventHandler<HTMLButtonElement>
  }
