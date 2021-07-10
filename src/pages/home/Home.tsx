@@ -2,6 +2,7 @@ import React from 'react'
 import { NavList } from '../../components/navlist/NavList'
 import NavListItem from '../../components/navlist/NavListItem';
 import { FontAwesome } from '../../shared/icons/icon';
+import './Home.scss';
 
 function Home() {
     
@@ -10,7 +11,7 @@ function Home() {
         <NavListItem icon={<i className={FontAwesome.Icon.FOLLOWING}/>} text={"Following"}/>
     ];
     return(
-        <div>
+        <div className={"main-body middle"}>
             <NavList items={navItems}/>
         </div>
     )
