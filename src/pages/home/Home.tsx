@@ -6,7 +6,7 @@ import { FontAwesome } from '../../shared/icons/icon';
 function Home() {
     
     const navItems : Array<JSX.Element> = [
-        <NavListItem icon={<i className={FontAwesome.Icon.HOME}/>} text={"For You"}/>,
+        <NavListItem icon={<i className={FontAwesome.Icon.HOME}/>} text={"For You"} className={"selected"}/>,
         <NavListItem icon={<i className={FontAwesome.Icon.FOLLOWING}/>} text={"Following"}/>
     ];
     return(
