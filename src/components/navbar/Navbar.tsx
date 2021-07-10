@@ -14,7 +14,7 @@ function Navbar(){
         <div className="navbar">
             <img src={TikTokLogo} alt="TikTok Logo"/>
             <SearchBox/>
-            <Button type={ButtonType.NORMAL} text="Upload" event={doSomething}/>
+            <Button text="Upload" event={doSomething}/>
             <Button type={ButtonType.FILLED} text="Login" event={doSomething}/>
             <button className="ellipsis"><i className="fas fa-ellipsis-v"></i></button>
         </div>
