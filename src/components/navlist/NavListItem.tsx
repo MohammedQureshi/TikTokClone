@@ -9,7 +9,7 @@ interface NavListProps {
 export const NavListItem : React.FC<NavListProps> = ({
     icon = null,
     text = "",
-    className = ""
+    className = undefined
 }) => { return <li className={className}>{icon}{text}</li>}
 
 export default NavListItem;

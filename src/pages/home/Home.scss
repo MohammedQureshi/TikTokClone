@@ -1,0 +1,14 @@
+div {
+    .main-body {
+        display:block;
+        margin:0 auto;
+        &.middle{
+            max-width: 1100px;
+            justify-content: space-between;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+        }
+    }
+    
+}
