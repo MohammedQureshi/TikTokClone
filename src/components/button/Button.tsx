@@ -8,13 +8,18 @@ export enum ButtonType {
 }
 
 interface ButtonProps {
-    type: ButtonType,
+    type?: ButtonType,
     text: string,
-    event: MouseEventHandler<HTMLButtonElement>
+    event?: MouseEventHandler<HTMLButtonElement>
  }
 
-function Button(props: ButtonProps){
+function Button(props:ButtonProps) {
     return <div className="TikTok-Button"><button className={props.type} onClick={props.event}>{props.text}</button></div>;
+}
+
+Button.defaultProps = {
+    event: () => void(0),
+    type: ButtonType.NORMAL
 }
 
 
