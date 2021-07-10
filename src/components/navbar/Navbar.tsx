@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../button/Button'
 import SearchBox from '../searchbox/SearchBox'
+import './Navbar.scss'
 
 function Navbar(){
 
@@ -11,7 +12,9 @@ function Navbar(){
     return(
         <div className="navbar">
             <SearchBox/>
-            <Button type="Hello" event={doSomething}/>
+            <Button type="normal" text="Upload" event={doSomething}/>
+            <Button type="filled" text="Login" event={doSomething}/>
+            <Button type="outline" text="Login" event={doSomething}/>
         </div>
     )
 }

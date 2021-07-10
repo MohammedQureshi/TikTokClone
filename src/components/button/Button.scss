@@ -1,0 +1,36 @@
+@import '../../shared/colours/DefaultColors';
+
+.TikTok-Button{
+    button{
+        font-family: "ProximaNova";
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        width: 100%;
+        cursor: pointer;
+    }
+    .normal{
+        background-color: $TikTokBackground;
+        border: 1px solid $TikTokBackground;
+        &:hover{
+            text-decoration: underline;
+        }    
+    }
+    .filled{
+        background-color: $TikTokPink;
+        color: $TikTokBackground;
+        border: 1px solid $TikTokPink;
+        &:hover{
+            background-color: $TikTokHoverFilled;
+            border: 1px solid $TikTokHoverFilled;
+        }
+    }
+    .outline{
+        background-color: $TikTokBackground;
+        color: $TikTokPink;
+        border: 1px solid $TikTokPink;
+        &:hover{
+            background-color: $TikTokLightPink;
+        }   
+    }
+}

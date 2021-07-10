@@ -1,12 +1,14 @@
 import React, { MouseEventHandler } from 'react'
+import './Button.scss'
 
 interface ButtonProps {
     type: string,
+    text: string,
     event: MouseEventHandler<HTMLButtonElement>
  }
 
 function Button(props: ButtonProps){
-    return <button className={props.type} onClick={props.event}>Button</button>;
+    return <div className="TikTok-Button"><button className={props.type} onClick={props.event}>{props.text}</button></div>;
 }
 
 
