@@ -1,12 +1,21 @@
 @import '../../shared/colours/_DefaultColors.scss';
 
-ul.navlist {
-    list-style: none;
-    padding-left:0;
-    i {
-        margin-right: 10px;
+ul {
+    &.navlist {
+        list-style: none;
+        padding-left:0;
+        li {
+            cursor: pointer;
+            &:hover {
+                background-color: $TikTokMenuHover
+            }
+        }
+        i {
+            margin-right: 10px;
+        }
+        .selected {
+            color: $TikTokPink;
+        }
     }
-    .selected {
-        color: $TikTokPink;
-    }
+    
 }
