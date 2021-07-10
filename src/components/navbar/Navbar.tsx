@@ -1,10 +1,11 @@
 import React from 'react'
+import SearchBox from '../SearchBox/SearchBox'
 
 function Navbar(){
     return(
-        <>
-            <i className="fas fa-space-shuttle" />
-        </>
+        <div className="navbar">
+            <SearchBox/>
+        </div>
     )
 }
 
