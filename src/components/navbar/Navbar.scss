@@ -1,3 +1,10 @@
+@import '../../shared/colours/DefaultColors';
 .navbar{
     display: flex;
+    .ellipsis{
+        background-color: $TikTokBackground;
+        border: $TikTokBackground;
+        cursor: pointer;
+        padding: 0 25px;
+    }
 }
