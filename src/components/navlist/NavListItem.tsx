@@ -2,12 +2,14 @@ import { ReactElement } from "react";
 
 interface NavListProps {
     icon?: ReactElement<JSX.IntrinsicElements>,
-    text?: string
+    text?: string,
+    className?: string
 }
 
 export const NavListItem : React.FC<NavListProps> = ({
     icon = null,
-    text = ""
-}) => { return <li>{icon}{text}</li>}
+    text = "",
+    className = ""
+}) => { return <li className={className}>{icon}{text}</li>}
 
 export default NavListItem;
