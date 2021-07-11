@@ -11,8 +11,9 @@ function Home() {
         <NavListItem icon={<i className={FontAwesome.Icon.FOLLOWING}/>} text={"Following"}/>
     ];
     return(
-        <div className={"main-body middle"}>
+        <div className="main-body">
             <div className="side-navbar"><NavList items={navItems}/></div>
+            <div className="video-feed"><h1>Hello </h1></div>
         </div>
     )
 }

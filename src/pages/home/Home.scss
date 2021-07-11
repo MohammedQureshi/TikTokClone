@@ -1,18 +1,20 @@
-div {
-    .main-body {
-        display:block;
-        margin:0 auto;
-        &.middle{
-            max-width: 1100px;
-            justify-content: space-between;
-            -webkit-box-pack: justify;
-            -webkit-justify-content: space-between;
-            -ms-flex-pack: justify;
-        }
-        .side-navbar{
-            height: calc(100vh - 70px);
-            overflow-y: scroll;
-        }
+.main-body {
+    display:block;
+    margin:0 auto;
+    max-width: 1100px;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    display: flex;
+    .side-navbar{
+        height: calc(100vh - 70px);
+        overflow-y: scroll;
+        flex: 0.2;
     }
-    
+    .video-feed{
+        height: calc(100vh - 70px);
+        overflow-y: scroll;
+        flex: 0.8
+    }
 }
