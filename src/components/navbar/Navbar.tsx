@@ -13,7 +13,7 @@ function Navbar(){
     return(
         <div className="navbar">
             <div className="max-width">
-                <div className="Logo"><img src={TikTokLogo} alt="TikTok Logo"/></div>
+                <a className="Logo" href="/"><img src={TikTokLogo} alt="TikTok Logo"/></a>
                 <div className="SearchBox"><SearchBox/></div>
                 <div className="Buttons">
                     <div className="UploadButton"><Button text="Upload" event={doSomething}/></div>
