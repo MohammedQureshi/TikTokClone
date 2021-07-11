@@ -12,12 +12,14 @@ function Navbar(){
     }
     return(
         <div className="navbar">
-            <div className="Logo"><img src={TikTokLogo} alt="TikTok Logo"/></div>
-            <div className="SearchBox"><SearchBox/></div>
-            <div className="Buttons">
-                <div className="UploadButton"><Button text="Upload" event={doSomething}/></div>
-                <Button type={ButtonType.FILLED} text="Log in" event={doSomething}/>
-                <button className="ellipsis"><i className="fas fa-ellipsis-v"></i></button>
+            <div className="max-width">
+                <div className="Logo"><img src={TikTokLogo} alt="TikTok Logo"/></div>
+                <div className="SearchBox"><SearchBox/></div>
+                <div className="Buttons">
+                    <div className="UploadButton"><Button text="Upload" event={doSomething}/></div>
+                    <Button type={ButtonType.FILLED} text="Log in" event={doSomething}/>
+                    <button className="ellipsis"><i className="fas fa-ellipsis-v"></i></button>
+                </div>
             </div>
         </div>
     )
