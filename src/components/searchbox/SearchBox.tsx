@@ -7,7 +7,9 @@ function SearchBox(){
     let history = useHistory();
     function searchAccount(event: MouseEvent){
         event.preventDefault();
-        history.push('/search/'+accountSearch)
+        if(accountSearch){
+            history.push('/search/'+accountSearch)
+        }
     }
 
     return(
