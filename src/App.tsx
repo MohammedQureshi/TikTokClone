@@ -4,6 +4,7 @@ import Home from './pages/home/Home'
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
+import UserResult from './pages/search/UserResult';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <Navbar/>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/search/:result">
+          <UserResult/>
+        </Route>
       </Switch>
     </Router>
   );

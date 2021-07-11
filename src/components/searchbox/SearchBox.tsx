@@ -1,13 +1,13 @@
 import React, {MouseEvent, useState} from 'react'
 import './SearchBox.scss'
-
+import { useHistory } from "react-router-dom";
 function SearchBox(){
 
     const[accountSearch, setAccountSearch] = useState('');
-
+    let history = useHistory();
     function searchAccount(event: MouseEvent){
         event.preventDefault();
-        console.log(accountSearch);
+        history.push('/search/'+accountSearch)
     }
 
     return(
