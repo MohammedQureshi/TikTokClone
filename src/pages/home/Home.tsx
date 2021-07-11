@@ -12,7 +12,7 @@ function Home() {
     ];
     return(
         <div className={"main-body middle"}>
-            <NavList items={navItems}/>
+            <div className="side-navbar"><NavList items={navItems}/></div>
         </div>
     )
 }

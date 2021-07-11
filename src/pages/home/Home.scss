@@ -9,6 +9,10 @@ div {
             -webkit-justify-content: space-between;
             -ms-flex-pack: justify;
         }
+        .side-navbar{
+            height: calc(100vh - 70px);
+            overflow-y: scroll;
+        }
     }
     
 }
