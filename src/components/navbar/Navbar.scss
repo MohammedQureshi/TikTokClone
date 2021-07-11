@@ -1,10 +1,35 @@
 @import '../../shared/colours/DefaultColors';
 .navbar{
     display: flex;
-    .ellipsis{
-        background-color: $TikTokBackground;
-        border: $TikTokBackground;
-        cursor: pointer;
-        padding: 0 25px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+    .Logo{
+        flex: 0.35;
+    }
+    .SearchBox{
+        flex: 0.30;
+    }
+    .Buttons{
+        flex: 0.35;
+        display: -webkit-inline-box;
+        float: right;
+        .TikTok-Button{
+            button{
+                width: 110px;
+            }
+        }
+        .UploadButton{
+            margin-left: auto;
+        }
+        .ellipsis{
+            background-color: $TikTokBackground;
+            border: $TikTokBackground;
+            cursor: pointer;
+            padding: 0 30px;
+            margin-top: 15px;
+            font-size: 18px;
+        }
     }
 }
