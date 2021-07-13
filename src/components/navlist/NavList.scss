@@ -6,6 +6,9 @@ ul {
         padding-left:0;
         li {
             cursor: pointer;
+            padding:8px;
+            font-size:18px;
+            font-weight:700;
             &:hover {
                 background-color: $TikTokMenuHover
             }
