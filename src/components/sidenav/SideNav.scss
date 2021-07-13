@@ -1,0 +1,23 @@
+@import '../../shared/colours/DefaultColors.scss';
+
+div {
+    &.side-navbar {
+        .TikTok-Button {
+            height: 48px;
+            font-weight: 600;
+        }
+        span {
+            &.nav-wrapper {
+                display:block;
+                width:100%;
+                margin-bottom: 8px;
+                border-bottom: 1px solid $TikTokWrapperGray;
+            }
+        }
+        p {
+            &:first-of-type {
+                color: #16182380;
+            }
+        }
+    }
+}
