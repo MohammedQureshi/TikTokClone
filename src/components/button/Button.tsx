@@ -4,6 +4,7 @@ import './Button.scss'
 export enum ButtonType {
     FILLED = "filled", 
     OUTLINED = "outlined",
+    PINK_OUTLINED = "pink-outline",
     NORMAL = "normal"
 }
 
