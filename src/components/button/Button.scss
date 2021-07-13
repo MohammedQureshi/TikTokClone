@@ -36,4 +36,12 @@
             background-color: $TikTokLightPink;
         }   
     }
+    .pink-outline {
+        border: 1px solid $TikTokPink;
+        background-color: white;
+        color: $TikTokPink;
+        &:hover {
+            background-color: $TikTokPinkButtonHover;
+        }
+    }
 }
