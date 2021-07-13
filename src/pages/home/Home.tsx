@@ -15,7 +15,7 @@ function Home() {
     return(
         <div className="main-body">
             <div className="side-navbar"><NavList items={navItems}/></div>
-            <div className="video-feed">
+            <div className="post-feed">
                 <Post/>
             </div>
         </div>
