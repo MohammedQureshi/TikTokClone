@@ -10,11 +10,16 @@
     .side-navbar{
         height: calc(100vh - 70px);
         overflow-y: scroll;
-        flex: 0.2;
+        flex: 0.3;
     }
     .post-feed{
         height: calc(100vh - 70px);
         overflow-y: scroll;
-        flex: 0.8
+        flex: 0.7
+    }
+    .nav-container {
+        display:block;
+        margin:0 auto;
+        width: 96%;
     }
 }
