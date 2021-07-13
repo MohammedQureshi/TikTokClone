@@ -1,0 +1,28 @@
+.video-container{
+    display: flex;
+    .video{
+        width: 336px;
+        height: 597px;
+        iframe{
+            border-radius: 0.5rem;
+        }
+    }
+    .action-buttons{
+        margin-top:auto;
+        text-align: center;
+        padding-left: 10px;
+
+        .fas{
+            background-color: #F1F1F2;
+            padding: 12px;
+            border-radius: 100%;
+            margin-top: 5px;
+        }
+
+        p{
+            margin: 0;
+            margin-top: 5px;
+            font-size: 12px;
+        }
+    }
+}
