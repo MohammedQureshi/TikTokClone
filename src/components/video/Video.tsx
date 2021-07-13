@@ -1,11 +1,11 @@
 import React from 'react'
 import './Video.scss'
 
-interface VideoProps {
+export interface VideoProps {
     src: string;
-    likes?: number;
-    comments?: number;
-    shares?: number;
+    likes: number;
+    comments: number;
+    shares: number;
 }
 
 function Video(videoProps: VideoProps){
