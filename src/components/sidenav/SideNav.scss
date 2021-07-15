@@ -2,9 +2,18 @@
 
 div {
     &.side-navbar {
+        position: relative;
+        top:60px;
         .TikTok-Button {
             height: 48px;
             font-weight: 600;
+        }
+        .nav-container {
+            width: 340px;
+            height:100%;
+            padding-top: 20px;
+            overflow-y:auto;
+            position: fixed;
         }
         span {
             &.nav-wrapper {
