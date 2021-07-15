@@ -6,9 +6,9 @@ ul {
         padding-left:0;
         li {
             cursor: pointer;
-            padding:8px;
             font-size:18px;
             font-weight:700;
+            padding:8px;
             &:hover {
                 background-color: $TikTokMenuHover
             }
@@ -20,5 +20,14 @@ ul {
             color: $TikTokPink;
         }
     }
-    
+}
+
+@media (min-width: 1000px) { 
+    ul {
+        &.navlist {
+            li {
+                padding: 0;
+            }
+        }
+    }
 }
