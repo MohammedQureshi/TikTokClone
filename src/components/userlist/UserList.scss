@@ -1,0 +1,64 @@
+@import '../../shared//colours/DefaultColors';
+
+a {
+   &.account {
+       display:block;
+   } 
+   p {
+       margin: 0;
+   }
+   h4 {
+       margin: 0;
+   }
+   span {
+       &.user-item-inner {
+        display:flex;
+        height:48px;
+        padding-left: 8px;
+        padding-right: 8px;
+            div {
+                &.user-avatar {
+                    width:32px;
+                    height:32px;
+                    .tiktok-avatar {
+                        display:inline-block;
+                        width:100%;
+                        height:100%;
+                        img {
+                            width:100%;
+                            border-radius: 100%;
+                        }
+                    }
+                }
+            }
+            .user-info {
+                display:flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin-left:12px;
+                .user-title {
+                    display:flex;
+                    h4 {
+                        &:first-child {
+                            margin-right: 4px;
+                            color: black;
+                        }
+                    }
+                    i {
+                        display:flex;
+                        align-items: center;
+                        &.fa-check-circle {
+                            color: $TikTokVerifiedBlue;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .user-description {
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #66676e;
+                }
+            }
+        }
+    }
+}
