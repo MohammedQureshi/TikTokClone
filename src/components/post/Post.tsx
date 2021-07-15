@@ -41,24 +41,34 @@ const Post = () : JSX.Element => {
     const postList : addPost[] = [
         new addPost(
             "https://p77-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/88531086017ad208fecee57564db4747.jpeg?x-expires=1626444000&x-signature=BySC8EtBQ0Rd1N5bbQVptAor%2BFw%3D",
-            "erim",
+            "foodbylaila",
+            false,
+            "Food by Laila",
+            "1am feast🤤 #foodbylaila #fyp #pasta #blowthisup",
+            "Monkeys Spinning Monkeys - Kevin MacLeod",
+            "https://v16-web.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/00d089e9293a4411aecdc6b4036ccb19/?a=1988&br=3686&bt=1843&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&expire=1626392885&ft=Q9BExE7U_4ka&l=20210715174737010190189137192463B9&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&policy=2&qs=0&rc=M2VnOmU6ZnNtNjMzODczNEApaDU8Mzg7NWRkNzg6ZTYzZ2djaC9pcjQwMWtgLS1kMS1zczVfM2BiMjUtX2JhLTViYl86Yw%3D%3D&signature=3bbb60fab0bd036e239db14aa9993a4d&tk=tt_webid_v2&vl=&vr="
+            ,700.9,4463,12.9
+        ),
+        new addPost(
+            "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/c17f4eee2c2c4e709c4f3c4706372677~c5_100x100.jpeg?x-expires=1626454800&x-signature=wpVjae3TRCdZB2U0%2BmRvmpD668U%3D",
+            "miakhalifa",
             true,
-            "Erim",
-            "Nice to meet you x #desi #punjabi #asianclothes #indianwedding",
-            "original sound - Tesher",
-            "https://v16m.tiktokcdn.com/19116edc3eedf361212ae011f050d21b/60f09f75/video/tos/useast2a/tos-useast2a-ve-0068c004/cdba40adc33540b48631fbaf07e13d05/?a=1233&br=3078&bt=1539&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Qq.UxE7U_4ka&l=2021071514490001019021920709159976&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amVqeXc6ZWVuNTMzNzczM0ApPDk0OTY3ZmQ7NzNpZGg6ZWdhYWowNmMtcmdgLS1kMTZzc2EuNTAxYjZfMjY1NTRhLy06Yw%3D%3D&vl=&vr="
+            "Mia Khalifa",
+            "Glo down 😭 STREAM BUILD A BISH FOR CLEAR SKIN AND FREE PALESTINE FOR SHINY HAIR",
+            "Gods Plan Slowed - Payton stan",
+            "https://v16m.tiktokcdn.com/999f0f1bc9c61f935b1977f4b691eca8/60f0c77c/video/tos/useast2a/tos-useast2a-ve-0068c001/75300e3c850148feb4bd41bc63d523b5/?a=1233&br=3880&bt=1940&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Qq.UxE7U_4ka&l=20210715174034010191057039132478ED&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=M2Y6cHQ0OGk8NTMzNzczM0ApZDs0NDRkZWVpNzk8NDM6M2drNTJsXl9qcGNgLS1kMTZzczU0YF80NTA1MGBjLS01M2A6Yw%3D%3D&vl=&vr="
             ,21.9,220,325
         ),
         new addPost(
-            "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/b2dbe9aba26acd8ebf4d2d4df74b01a6.jpeg?x-expires=1626300000&x-signature=9ZRemck%2FfRS5bk9hYSRvBIE1W%2F8%3D",
-            "erim",
+            "https://p77-sign-va-lite.tiktokcdn.com/tos-maliva-avt-0068/a288df68a38b87e4f7bebc8308c940ae~c5_100x100.jpeg?x-expires=1626454800&x-signature=imk3UK8glhlqRPqOcFIxD5gozHs%3D",
+            "booked_up",
             false,
-            "Erim",
-            "Nice to meet you x #desi #punjabi #asianclothes #indianwedding",
-            "original sound - Tesher",
-            "https://v19.tiktokcdn.com/d6e868bbdcec9ec54576d5b8176c2c88/60ee661c/video/tos/alisg/tos-alisg-pve-0037c001/d5f37fde2ed943e6b485ec647c713888/?a=1233&br=3524&bt=1762&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&l=202107132220350101902192222246A031&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=M2p1cTM6ZmRkNjMzODczNEApOTQ2OWVlPDw5N2c7ODQ0OWcwajE1cjRvZGpgLS1kMS1zczA0LTBfLjEtMjJfNGIzM2I6Yw%3D%3D&vl=&vr="
-            ,21.9,220,325
-        ),
+            "Kerrie💀",
+            "H2-hoe #booktok #books #tbr #smuttok #bookedup #smutbooks",
+            "original sound - kathryn",
+            "https://v39-eu.tiktokcdn.com/3e7ea9b968637c8baa92eb75338a3794/60f0c8b1/video/tos/alisg/tos-alisg-pve-0037c001/56956f19f5074549bd3814f43fb73090/?a=1233&br=3998&bt=1999&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Qq.UxE7U_4ka&l=2021071517454601019021820142246962&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=anV2OHY7dm42NjMzODczNEApOjNoN2c1ZTs4NzdpNTlkZmdrYGptXzA2NjZgLS1kMS1zczFiYV5hLy0yL18wY2FgMTU6Yw%3D%3D&vl=&vr=",
+            2734,20,29
+        )
     ];
 
     let posts : ReactElement[] =  postList.map((postList:addPost, index) => {
@@ -74,7 +84,7 @@ const Post = () : JSX.Element => {
                         {postList.verified &&  <i className="fas fa-certificate" />}
                         <p>{postList.fullname}</p>
                     </div>
-                    <p>{postList.description}</p>
+                    <p className="post-description">{postList.description}</p>
                     <div className="post-music">
                         <i className="fas fa-music"></i>
                         <h2>{postList.music}</h2>
