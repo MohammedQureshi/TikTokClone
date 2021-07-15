@@ -11,7 +11,7 @@ div {
         .nav-container {
             width: 52px;
             height:100%;
-            padding-top: 20px;
+            padding: 0 8px 0 8px;
             overflow-y:auto;
             overflow-x: hidden;
             position: fixed;
@@ -27,6 +27,14 @@ div {
             p {
                 &:first-of-type {
                     color: #16182380;
+                }
+            }
+            .navlist {
+                li {
+                    width: 50px;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
                 }
             }
         }
@@ -60,7 +68,13 @@ div {
                 width: 340px;
                 text-align: initial;
                 p, h2, h4, i, button, .user-info, .middle-section  {
-                    display:initial;
+                    display:block;
+                }
+                .navlist {
+                    li { 
+                        width:initial;
+                        justify-content: unset;
+                    }
                 }
             }       
         }

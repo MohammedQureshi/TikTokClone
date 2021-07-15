@@ -12,7 +12,7 @@ const Item : React.FC<NavListItemProps> = ({
     icon = null,
     text = "",
     className = undefined
-}) => { return <li className={className}>{icon}{text}</li>}    
+}) => { return <li className={className}>{icon} <h2>{text}</h2></li>}    
 
 
 interface NavListProps {
