@@ -142,7 +142,7 @@ const Post = () : JSX.Element => {
                     <Button type={ButtonType.PINK_OUTLINED} text="Follow" />
                     <div className="post-username">
                         <h1>{postList.username}</h1>
-                        {postList.verified &&  <i className="fas fa-certificate" />}
+                        {postList.verified &&  <i className="fas fa-check-circle" />}
                         <p>{postList.fullname}</p>
                     </div>
                     <p className="post-description">{postList.description}</p>
