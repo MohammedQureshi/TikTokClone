@@ -24,6 +24,7 @@
         }
         .SearchBox{
             flex: 0.30;
+            display: inherit;
         }
         .Buttons{
             flex: 0.35;
@@ -44,6 +45,24 @@
                 padding: 0 30px;
                 margin-top: 15px;
                 font-size: 18px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 754px) {
+    .navbar{
+        .max-width{
+            padding-right: 0;
+            .SearchBox{
+                display: none;
+            }
+            .Logo{
+                flex: 0.5;
+            }
+            .Buttons{
+                flex: 0.5;
+
             }
         }
     }
