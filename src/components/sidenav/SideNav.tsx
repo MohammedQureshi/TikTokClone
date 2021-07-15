@@ -29,6 +29,9 @@ export const SideNav : React.FC = () => {
         <UserList.Container>
             <UserList.Account username={"gordonramsayofficial"} description={"Gordon Ramsay"} imageURL={"https://p77-sign-va.tiktokcdn.com/musically-maliva-obj/1647754017437702~c5_100x100.jpeg?x-expires=1626444000&x-signature=COz7D77UKsgRuAa0VCrCckX5ahc%3D"} isVerifed={true}/>
             <UserList.Account username={"dualipaofficial"} description={"Dua Lipa"} imageURL={"https://p16-sign-va.tiktokcdn.com/musically-maliva-obj/1657268694828037~c5_100x100.jpeg?x-expires=1626444000&x-signature=O0GGjCBPfClH49BlsMbUb0vhm7k%3D"} isVerifed={true}/>
+            <UserList.Account username={"therock"} description={"The Rock"} imageURL={"https://p16-sign-va.tiktokcdn.com/musically-maliva-obj/1647596478025734~c5_100x100.jpeg?x-expires=1626462000&x-signature=egvJidY2WQ%2FT0nxg%2BRZvVdXNT24%3D"} isVerifed={true}/>
+            <UserList.Account username={"niallhoran"} description={"Niall Horan"} imageURL={"https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/f2933b36608c12c5e36ee5c7906d3a0a~c5_100x100.jpeg?x-expires=1626462000&x-signature=WFZc%2BK2VEAR7qVnuUytJfstWEsg%3D"} isVerifed={true}/>
+            <UserList.Account username={"coldplay"} description={"coldplay"} imageURL={"https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ac23e6ac9322801426d0b0756bed5bc6~c5_100x100.jpeg?x-expires=1626462000&x-signature=75Tgcz9mp4NBEEUBnW50rhiK%2FqQ%3D"} isVerifed={true}/>
         </UserList.Container>
     </React.Fragment>)
 }
