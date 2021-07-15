@@ -3,6 +3,11 @@
 a {
    &.account {
        display:block;
+       cursor: pointer;
+       border-radius: 4px;
+       &:hover {
+           background-color: $TikTokMenuHover;
+       }
    } 
    p {
        margin: 0;
@@ -16,6 +21,7 @@ a {
         height:48px;
         padding-left: 8px;
         padding-right: 8px;
+        align-items: center;
             div {
                 &.user-avatar {
                     width:32px;
