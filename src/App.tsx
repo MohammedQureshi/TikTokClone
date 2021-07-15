@@ -12,6 +12,7 @@ function App() {
       <Navbar/>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="@:username"/>
         <Route path="/search/:result">
           <UserResult/>
         </Route>
