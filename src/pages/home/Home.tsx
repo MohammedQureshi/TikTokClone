@@ -13,8 +13,10 @@ function Home() {
                     <SideNav/>
                 </div>
             </div>
-            <div className="post-feed">
-                <Post/>
+            <div className="trending-container">
+                <div className="post-feed">
+                    <Post/>
+                </div>
             </div>
         </div>
     )
