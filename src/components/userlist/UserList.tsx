@@ -16,7 +16,7 @@ const Account : React.FC<AccountProps> = ({
 }) : ReactElement => {
 
     const displayVerifed = !isVerifed ? null :  <i className="fas fa-check-circle"></i>;
-    return <a className="account">
+    return <a className="account" href={`/@${username}`}>
         <span className="user-item-inner">
             <div className="user-avatar">
                 <span className="tiktok-avatar">
